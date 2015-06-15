@@ -27,8 +27,8 @@ import org.oss.bonita.utils.dom.FormFieldExtractor;
 
 public class BonitaClient {
 
-	private static final String ACTIVITY_INSTANCE_ID = "activityInstanceId";
-	private static final String FORM_COMPLETED = "formCompleted";
+	private static final String ACTIVITY_INSTANCE_ID = "activityinstanceid";
+	private static final String FORM_COMPLETED = "formcompleted";
 	private static final String TRUE = "true";
 
 	private static Logger LOGGER = Logger.getLogger(BonitaClient.class
