@@ -1,5 +1,5 @@
 # bonita-restclient
-This Bonita Rest Client show an example on how to read processed files from a repository that a mobile device has produced. 
+This Bonita Rest Client shows an example on how to read processed files from a repository that a mobile device has produced. 
 
 # License
 Apache License V2.0
