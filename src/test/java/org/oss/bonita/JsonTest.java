@@ -19,7 +19,7 @@ import org.oss.bonita.utils.json.Marshaller;
 
 public class JsonTest {
 
-	private final static String JSON_CONTENT = "{\"state\":\"complete\",\"variables\":[{\"name\":\"Name\",\"value\":\"Donat\"},{\"name\":\"Vorname\",\"value\":\"Müller\"},{\"name\":\"Sex\",\"value\":\"m\"}]}";
+	private final static String JSON_CONTENT = "{\"state\":\"completed\",\"variables\":[{\"name\":\"Name\",\"value\":\"Donat\"},{\"name\":\"Vorname\",\"value\":\"Müller\"},{\"name\":\"Sex\",\"value\":\"m\"}]}";
 	@Test
 	public void marshall() throws Exception  {
 		Marshaller<ActivityComplete> m = new Marshaller<ActivityComplete>();

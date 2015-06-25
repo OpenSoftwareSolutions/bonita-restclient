@@ -9,13 +9,18 @@
  ******************************************************************************/
 package org.oss.bonita;
 
-import org.junit.Test;
 import org.oss.bonita.client.BonitaClient;
 
 
+/**
+ * Bonita Instance has to run on your local machine or somewhere else otherwise this test will fail.
+ *
+ * @author magnus
+ *
+ */
 public class BonitaClientTest {
 
-	@Test
+	//@Test - only test with runing Bonita instance
 	public void launchClient() throws Exception {
 		BonitaClient.main(new String[]{"resources/bonitaclient.properties"});
 	}
